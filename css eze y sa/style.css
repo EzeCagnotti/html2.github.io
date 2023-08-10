@@ -1,0 +1,165 @@
+
+body{
+	margin: 0;
+}
+.texto-principal {
+    color: red;
+    text-align: center;
+}
+
+#ig{
+width: 50px;
+ float: center; /* coloca las imágenes una al lado de la otra en la misma línea */
+  
+  
+}
+
+
+
+form {
+	margin: 50px auto;
+	padding: 20px;
+	width: 300px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+/* Estilos para el encabezado */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos para el banner */
+.banner {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+.banner h2 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.banner p {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.btn {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #555;
+}
+
+/* Estilos para los autos */
+.autos {
+	margin-left: 100px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer{
+
+    display: inline-block;
+    color: white;
+    width: 100%;
+    margin: 1px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #000000;
+
+}
+#derechos{
+    color: green ;
+    position: fixed;
+    bottom: 0;
+    right: 0;  
+    text-align: right;
+}
+main{
+	margin-bottom: 100px;
+}
+#auto1{
+	text-align: center;
+	margin-left: 50px;
+margin-right: 50px;
+	width: 350px;
+	height: 200px;
+}
+#auto2{
+	text-align: center;
+	margin-left: 50px;
+margin-right: 50px;
+	width: 350px;
+	height: 200px;
+}
+#auto3{
+	text-align: center;
+	margin-left: 50px;
+margin-right: 50px;
+	width: 350px;
+	height: 200px;
+}
+
+.img {
+	background-color: #000000;
+	width: 100%;
+}
